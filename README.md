@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-#Visualização da Pagina hospedada no Vercel [Cadastro SGHX](https://login-cadastro-omega.vercel.app/).
+#Visualização da Pagina hospedada no Vercel [Cadastro SGHX](https://login-cadastro-omega.vercel.app).
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
