@@ -1,0 +1,62 @@
+.about-container {
+    padding: 40px;
+    background-color: #f7fafc;
+    text-align: center;
+    
+  }
+  
+  .introduction {
+    margin-bottom: 50px;
+  }
+  
+  .introduction h2 {
+    font-size: 2rem;
+    color: #1c3d5a;
+    margin-bottom: 20px;
+  }
+  
+  .introduction p {
+    font-size: 1.2rem;
+    color: #556677;
+    line-height: 1.6;
+  }
+  
+  .values-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .value-box {
+    flex: 1;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 28px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value-box h3 {
+    font-size: 1.5rem;
+    color: #1c3d5a;
+    margin-bottom: 15px;
+  }
+  
+  .value-box p {
+    font-size: 1.1rem;
+    color: #556677;
+    line-height: 1.5;
+  }
+  
+  .value-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .value-box ul li {
+    font-size: 1.1rem;
+    color: #556677;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  

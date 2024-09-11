@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #286502;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #3b7e01;
+    border-radius: 5px;
+  }
+  
