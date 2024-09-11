@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Papa from "papaparse"; // Importa a biblioteca para geração de CSV
+import Papa from "papaparse";
 import "./RegistrationForm.css";
 
 function RegistrationForm() {

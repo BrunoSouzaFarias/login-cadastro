@@ -1,62 +1,58 @@
 .about-container {
-    padding: 40px;
-    background-color: #f7fafc;
-    text-align: center;
-    
-  }
-  
-  .introduction {
-    margin-bottom: 50px;
-  }
-  
-  .introduction h2 {
-    font-size: 2rem;
-    color: #1c3d5a;
-    margin-bottom: 20px;
-  }
-  
-  .introduction p {
-    font-size: 1.2rem;
-    color: #556677;
-    line-height: 1.6;
-  }
-  
-  .values-section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  
-  .value-box {
-    flex: 1;
-    margin: 0 15px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 28px;
-    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .value-box h3 {
-    font-size: 1.5rem;
-    color: #1c3d5a;
-    margin-bottom: 15px;
-  }
-  
-  .value-box p {
-    font-size: 1.1rem;
-    color: #556677;
-    line-height: 1.5;
-  }
-  
-  .value-box ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .value-box ul li {
-    font-size: 1.1rem;
-    color: #556677;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  
+  display: flex; /* Adiciona flexbox ao container */
+  flex-direction: column; /* Garante que os itens fiquem empilhados verticalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  min-height: 100vh; /* Garante que o container ocupe toda a altura da tela */
+  padding: 10px;
+  background-image: url('https://static.wixstatic.com/media/3f53d8_e5994ca7c7bd42548b3b721942b458ba~mv2.png/v1/fill/w_952,h_816,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Line.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.introduction {
+  text-align: center; /* Centraliza o texto dentro do bloco */
+  margin-bottom: 50px;
+}
+
+.introduction h2 {
+  font-size: 2rem;
+  color: #fafbfc;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 1.2rem;
+  color: #fdfeff;
+  line-height: 1.6;
+}
+
+.values-section {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  flex-wrap: wrap; /* Permite que os itens se ajustem ao espaço disponível */
+  margin-top: 40px;
+}
+
+.value-box {
+  flex: 1;
+  margin: 15px; /* Adiciona margens ao redor das caixas */
+  padding: 20px;
+  max-width: 300px; /* Limita a largura máxima de cada caixa */
+  background-color: #fff;
+  border-radius: 28px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza o conteúdo dentro das caixas */
+}
+
+.value-box h3 {
+  font-size: 1.5rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.value-box p, .value-box ul li {
+  font-size: 1.1rem;
+  color: #556677;
+  line-height: 1.5;
+}

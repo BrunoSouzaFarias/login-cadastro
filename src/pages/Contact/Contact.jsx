@@ -20,7 +20,20 @@ function Contact() {
 
   return (
     <div className="contact-page">
-      <h1>Entre em Contato Conosco</h1>
+      <div className="contact-message">
+        <h2>Como podemos ajudar?</h2>
+        <p>
+          Valorizamos cada oportunidade de interagir com você. Seja para esclarecer dúvidas, 
+          oferecer suporte ou avaliar as suas sugestões, a nossa equipe está pronta para atendê-lo.
+        </p>
+        <p>
+          Preencha o formulário. O nosso time responderá o mais breve possível.
+        </p>
+        <p>
+          Se preferir, entre em contato via e-mail <strong>contato@libertyti.com.br</strong>.
+        </p>
+      </div>
+
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Nome</label>
